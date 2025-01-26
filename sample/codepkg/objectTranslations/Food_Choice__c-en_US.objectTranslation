@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Food Choice</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Food Choices</value>
+    </caseValues>
+    <fields>
+        <label><!-- Cuisine --></label>
+        <name>Cuisine__c</name>
+        <picklistValues>
+            <masterLabel>Barbecue</masterLabel>
+            <translation><!-- Barbecue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chinese</masterLabel>
+            <translation><!-- Chinese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French</masterLabel>
+            <translation><!-- French --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexican</masterLabel>
+            <translation><!-- Mexican --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thai</masterLabel>
+            <translation><!-- Thai --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Drink --></label>
+        <name>Drink__c</name>
+        <picklistValues>
+            <masterLabel>Alcoholic</masterLabel>
+            <translation><!-- Alcoholic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Alcoholic</masterLabel>
+            <translation><!-- Non-Alcoholic --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Food Category --></label>
+        <name>Food_Category__c</name>
+        <picklistValues>
+            <masterLabel>Non-Veg</masterLabel>
+            <translation><!-- Non-Veg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Veg</masterLabel>
+            <translation><!-- Veg --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Organization Name --></label>
+        <name>Organization_Name__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

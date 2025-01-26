@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>Candidate__c</tabs>
+    <tabs>Trail__c</tabs>
+    <tabs>Position__c</tabs>
+    <tabs>Job_Application__c</tabs>
+    <tabs>Review_Object__c</tabs>
+    <tabs>Campsite__c</tabs>
+    <tabs>Campsite_Reservation__c</tabs>
+    <tabs>JobPosting__c</tabs>
+    <tabs>X123123__c</tabs>
+    <tabs>book__c</tabs>
+    <tabs>Battle_Station__c</tabs>
+    <tabs>Resource__c</tabs>
+    <tabs>Supply__c</tabs>
+    <tabs>Food_Choice__c</tabs>
+    <tabs>Pass__c</tabs>
+    <tabs>Conference__c</tabs>
+    <tabs>Tower__c</tabs>
+    <tabs>New_Car_Survey__c</tabs>
+</CustomApplication>

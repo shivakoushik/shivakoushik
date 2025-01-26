@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Campsite</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Campsites</value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <layouts>
+        <layout>Campsite Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Trail</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Web_Search --></label>
+        <name>Web_Search</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Web_Search1 --></label>
+        <name>Web_Search1</name>
+    </webLinks>
+</CustomObjectTranslation>

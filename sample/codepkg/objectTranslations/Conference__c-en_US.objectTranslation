@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Conference</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Conferences</value>
+    </caseValues>
+    <fields>
+        <label><!-- Completed registrations --></label>
+        <name>Completed_registrations__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Registrations --></label>
+        <name>Total_Registrations__c</name>
+    </fields>
+    <fields>
+        <label><!-- amount --></label>
+        <name>amount__c</name>
+    </fields>
+    <layouts>
+        <layout>Conference Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Conference cannot be in the past --></errorMessage>
+        <name>StartDate</name>
+    </validationRules>
+</CustomObjectTranslation>

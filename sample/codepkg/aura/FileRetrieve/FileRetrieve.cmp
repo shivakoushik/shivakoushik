@@ -1,0 +1,18 @@
+<aura:component controller="newobjectdetail" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction,force:hasSObjectName" access="global">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    <aura:attribute name="iconName" type="String" />
+    <aura:attribute name="objName" type="String[]" />
+    <div class="slds-align_absolute-center" style="height:10rem">
+        <lightning:select name="objectn" aura:id="objectn" onchange="{!c.onChange}">
+             <option value=""> --None--</option>
+        <aura:iteration items="{!v.objName}" var="obj" >
+            <option value="{!obj}"> {!obj}</option>
+        </aura:iteration>
+    </lightning:select>
+    
+    
+    
+    <lightning:icon iconName="{!v.iconName}" size="large" alternativeText="Indicates approval"/>
+    </div>
+</aura:component>
